@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sederhana</title>
+    <style>
+        /* Styling Halaman */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        /* Logo Google */
+        .logo {
+            font-size: 80px;
+            font-weight: bold;
+            color: #4285F4;
+            margin-bottom: 20px;
+        }
+
+        .logo span:nth-child(2) { color: #EA4335; }
+        .logo span:nth-child(3) { color: #FBBC05; }
+        .logo span:nth-child(4) { color: #34A853; }
+        .logo span:nth-child(5) { color: #EA4335; }
+        .logo span:nth-child(6) { color: #4285F4; }
+
+        /* Input Pencarian */
+        .search-box {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            outline: none;
+            box-shadow: 0 1px 6px rgba(32,33,36,0.28);
+        }
+
+        .search-input:focus {
+            border: 1px solid #4285F4;
+        }
+
+        /* Tombol Pencarian */
+        .buttons {
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 14px;
+            background-color: #f8f9fa;
+            border: 1px solid #dfe1e5;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .buttons button:hover {
+            background-color: #f1f3f4;
+            border-color: #c6c6c6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo Google -->
+    <div class="logo">
+        <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+    </div>
+
+    <!-- Kotak Pencarian -->
+    <div class="search-box">
+        <input type="text" class="search-input" placeholder="Telusuri Google atau ketik URL">
+        <div class="buttons">
+            <button>Penelusuran Google</button>
+            <button>Saya Lagi Beruntung</button>
+        </div>
+    </div>
+</body>
+</html>
